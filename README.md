@@ -63,7 +63,7 @@ $Zmed_{wire}^\infty (\Omega)$ is the clamp-on reading taken with the turbine gro
 | $s \ (m)$ | ${Zmed}_{lumped}^{short} (\Omega) $ | ${Zmed}_{wire}^\infty (\Omega)$| $k$             |
 |---------|------------------------|-----------------------|-----------------|
 | 0.220   | 68.828                | 93.064                | 0.740     |
-| 0.150   | 84.037           | 93.064               | 0.903     |
+| 1.500   | 84.037           | 93.064               | 0.903     |
 
 
 The graph below depicts the fluctuation of the parameter $k$ about the increasing distance $s$ between the turbine and the horizontal electrodes. 
