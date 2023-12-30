@@ -58,6 +58,9 @@ The COMSOL models used by the authors are attached and named *rod_1.5_he_k.mph* 
 
 <img src="https://github.com/Alexandregiacomellileal/lumped_parameter_model_experimental_validation/assets/96079504/f3d72683-0fc8-4b29-bddf-039e2b4e0f16" width="400" height="300">
 
+![COMSOL_top_rod](https://github.com/Alexandregiacomellileal/lumped_parameter_model_experimental_validation/assets/96079504/121cfaa1-a8df-4603-86a9-62174e81e4fc)
+
+
 ### Results
 
 The obtained results demonstrate a robust agreement, with a Mean Absolute Percentage Error of 1.39 ± 0.12%, between the values registered by the clamp-on meter and those predicted by the proposed equivalent electrical circuit model. It is important to mention that an measurement error propagation study was carried out to address measurement uncertainties.
