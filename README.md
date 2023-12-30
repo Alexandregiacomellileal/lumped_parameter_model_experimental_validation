@@ -60,7 +60,7 @@ $Zmed_{wire}^\infty (\Omega)$ is the clamp-on reading taken with the turbine gro
 
 ![COMSOL_top_rod](https://github.com/Alexandregiacomellileal/lumped_parameter_model_experimental_validation/assets/96079504/3c300ef3-bff6-49b0-bf26-8936b7e185e0)
 
-| $s \ (m)$ | $\rho$ | ${Zmed}_{lumped}^{short} (\Omega) $ | ${Zmed}_{wire}^\infty (\Omega)$| $k$             | 
+| $s \ (m)$ | $\rho (\Omega.m)$| ${Zmed}_{lumped}^{short} (\Omega) $ | ${Zmed}_{wire}^\infty (\Omega)$| $k$             | 
 |---------|---------|------------------------|-----------------------|-----------------|
 | 0.220   | 115.82 | 68.828                | 93.064                | 0.740     | 
 | 1.500   |  115.82 | 84.037           | 93.064               | 0.903     |
