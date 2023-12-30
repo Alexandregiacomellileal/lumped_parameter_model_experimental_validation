@@ -12,7 +12,8 @@ This repository contains the experimental validation details for the lumped para
 
 <img src="https://github.com/Alexandregiacomellileal/lumped_parameter_model_experimental_validation/assets/96079504/ba2851b3-8f18-4c76-a4f1-d1ad3feacb9d" width="400" height="300">
 
-<img width="1605" alt="image" src="https://github.com/Alexandregiacomellileal/lumped_parameter_model_experimental_validation/assets/96079504/32a6665d-0ccf-4192-a334-541666d02f45">
+<img width="831" alt="image" src="https://github.com/Alexandregiacomellileal/lumped_parameter_model_experimental_validation/assets/96079504/50dac49d-070a-4291-b910-aace610fe265">
+
 
 
 
