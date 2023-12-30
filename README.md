@@ -23,7 +23,7 @@ Measurements Zmed <sub>meter</sub> were conducted using the UT-278A clamp-on met
 
 ### Electrical Circuit and Grounding Resistance Calculation
 
-The electrical circuit for the measurements was established and simulated in ATP to acquire the meter readings Zmed<sub>LPM</sub> following the procedures detailed in Section 2.2 of the associated research paper. Furthermore, the lumped parameter modeling used in [our previous work](https://github.com/Alexandregiacomellileal/A-New-Approach-Towards-Error-Reduction-in-Ground-Resistance-Measurements-Based-on-Clamp-on-Method) was also established and simulated in ATP for comparative purposes. The ATP files used by the authors are attached and named **23_model.acp**, **23_model_rod1.acp**, **23_model_rod3.acp**, **celulapi_COMSOL_k_RLC.acp**, **celulapi_COMSOL_k_RLC_rod1.acp**, and **celulapi_COMSOL_k_RLC_rod3.acp**. 
+The electrical circuit for the measurements was established and simulated in ATP to acquire the meter readings Zmed<sub>LPM</sub> following the procedures detailed in Section 2.2 of the associated research paper. Furthermore, the lumped parameter modeling used in [our previous work](https://github.com/Alexandregiacomellileal/A-New-Approach-Towards-Error-Reduction-in-Ground-Resistance-Measurements-Based-on-Clamp-on-Method) was also established and simulated in ATP for comparative purposes. The ATP files used by the authors are attached and named *23_model.acp*, *23_model_rod1.acp*, *23_model_rod3.acp*, *celulapi_COMSOL_k_RLC.acp*, *celulapi_COMSOL_k_RLC_rod1.acp*, and *celulapi_COMSOL_k_RLC_rod3.acp*. 
 
 Notably, the approach used to calculate the grounding resistance of the rod differs, utilizing the Sunde formula. This formula is particularly suitable for scenarios where cylindrical electrodes are vertically installed, especially when their length significantly exceeds their cross-section. 
 
@@ -54,7 +54,7 @@ The apparent resistivity for the cylinder electrodes was estimated at 115.8, 86.
 ### $k$ Parameter Estimation
 
 As per Section 2.2 of the associated research paper, the parameter $k$ was estimated to be 0.74 for an $s$ value of 0.22 m and 0.90 for an $s$ value of 1.5 m.
-The COMSOL models used by the authors are attached and named **rod_1.5_he_k.mph** and **vrod_1.5_two_sphere_k.mph**. The graph below depicts the fluctuation of the parameter $k$ about the increasing distance $s$ between the turbine and the horizontal electrodes.
+The COMSOL models used by the authors are attached and named *rod_1.5_he_k.mph* and *rod_1.5_two_sphere_k.mph*. The graph below depicts the fluctuation of the parameter $k$ about the increasing distance $s$ between the turbine and the horizontal electrodes.
 
 <img src="https://github.com/Alexandregiacomellileal/lumped_parameter_model_experimental_validation/assets/96079504/f3d72683-0fc8-4b29-bddf-039e2b4e0f16" width="400" height="300">
 
