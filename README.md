@@ -13,7 +13,7 @@ This repository contains the experimental validation details for the lumped para
  
 <img width="1019" alt="image" src="https://github.com/Alexandregiacomellileal/lumped_parameter_model_experimental_validation/assets/96079504/3e9322f1-e0cb-4e47-9824-b0129ceb2dde">
 <center> 
-#Figure 1 
+# Figure 1 
 </center>
 
 
