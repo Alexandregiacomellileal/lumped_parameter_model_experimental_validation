@@ -10,12 +10,10 @@ This repository contains the experimental validation details for the lumped para
 
 ### Experimental Setup
 
+To validate the lumped parameter model introduced in Section 2.2 of the associated research paper, experiments were conducted using a scaled-down multi-grounded system. The system consisted of three 1.5 m rods spaced 7.5 m apart, interconnected to a 15 m horizontal electrode. Each copper rod symbolized a turbine grounding, boasting a cross-sectional area of 126 mm², while the copper horizontal electrode had a cross-sectional area of 35 mm². The horizontal electrode was buried 0.12 m below the ground. Two different conditions were tested for the variable $s$, specifically at values 0.22 and 1.5 m. The radial connection between the rods and the horizontal electrode was established using an insulated wire. The soil had an average low-frequency resistivity of 86.8 Ω·m. In Figure 1, the schematic of the grounding system is presented, capturing key moments during both its construction and the measurement process.
+
 **Figure 1**
 <img width="1019" alt="image" src="https://github.com/Alexandregiacomellileal/lumped_parameter_model_experimental_validation/assets/96079504/3e9322f1-e0cb-4e47-9824-b0129ceb2dde">
-
-To validate the lumped parameter model introduced in Section 2.2 of the associated research paper, experiments were conducted using a scaled-down multi-grounded system. The system consisted of three 1.5 m rods spaced 7.5 m apart, interconnected to a 15 m horizontal electrode. Each copper rod symbolized a turbine grounding, boasting a cross-sectional area of 126 mm², while the copper horizontal electrode had a cross-sectional area of 35 mm².
-
-The horizontal electrode was buried 0.12 m below the ground. Two different conditions were tested for the variable $s$, specifically at values 0.22 and 1.5 m. The radial connection between the rods and the horizontal electrode was established using an insulated wire. The soil had an average low-frequency resistivity of 86.8 Ω·m.
 
 ### Measurements clamp-on ground meter
 
