@@ -72,7 +72,7 @@ Table 1 displays COMSOL simulation results obtained at an average soil resistivi
 | 0.220   | 115.82 | 68.828                | 93.064                | 0.740     | 
 | 1.500   |  115.82 | 84.037           | 93.064               | 0.903     | 
 
-The graph of Figure 3 depicts the fluctuation of the parameter $k$ about the increasing distance $s$ between the rods and the horizontal electrodes. 
+In instances where simulation software is unavailable for researching the parameter $k$ in the measuring circuit, the attached graph of Figure 3 serves as a valuable tool for estimating it according to the distance $s$ between the grounding elements. 
 
 **Figure 3**
 
