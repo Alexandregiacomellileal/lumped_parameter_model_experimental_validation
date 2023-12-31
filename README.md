@@ -75,14 +75,13 @@ Table 1 displays COMSOL simulation results obtained at an average soil resistivi
 |---------|---------|------------------------|-----------------------|-----------------|
 | 0.220   | 115.82 | 68.828                | 93.064                | 0.740     | 
 | 1.500   |  115.82 | 84.037           | 93.064               | 0.903     | 
-                              Table 1
+Table 1
 
 
 
 The graph of Figure 3 depicts the fluctuation of the parameter $k$ about the increasing distance $s$ between the rods and the horizontal electrodes. 
 
 <img src="https://github.com/Alexandregiacomellileal/lumped_parameter_model_experimental_validation/assets/96079504/f3d72683-0fc8-4b29-bddf-039e2b4e0f16" width="400" height="300">
-
 Figure 3
 
 
