@@ -75,8 +75,9 @@ Table 1 displays COMSOL simulation results obtained at an average soil resistivi
 
 In instances where simulation software is unavailable for researching the parameter $k$ in the measuring circuit, the attached graph of Figure 3 serves as a valuable tool for estimating it according to the distance $s$ between the grounding elements. 
 
-**Figure 3**             
-<img src="https://github.com/Alexandregiacomellileal/lumped_parameter_model_experimental_validation/assets/96079504/099076ee-e7a2-4e9e-9edc-e09ef225e5e2" width="500" height="375">
+**Figure 3**    
+
+<img src="https://github.com/Alexandregiacomellileal/lumped_parameter_model_experimental_validation/assets/96079504/46fa4df1-d8ae-4224-87c2-ea0e8c697726" width="500" height="375">
 
 ### Results
 
