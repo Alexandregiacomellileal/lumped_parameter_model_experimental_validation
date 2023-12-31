@@ -60,7 +60,7 @@ $Zmed_{wire}^\infty (\Omega)$ is the clamp-on reading taken with the turbine gro
 
 ![COMSOL_top_rod](https://github.com/Alexandregiacomellileal/lumped_parameter_model_experimental_validation/assets/96079504/fec3c28d-00eb-4525-b1e6-71c5f1f8a3f4)
 
-The results shown in the table below were achieved with an average soil resistivity of 115.82 $(\Omega.m)$. Notably, it is emphasized that the parameter $k$ remains constant regardless of changes in resistivity.
+The table below displays results obtained at an average soil resistivity of 115.82 $(\Omega.m)$. Notably, extensive computer simulations indicate that the parameter $k$ remains constant, regardless of changes in soil resistivity from 20 to 10240 $(\Omega.m)$.
 
 | $s \ (m)$ | $\rho \ (\Omega.m)$| ${Zmed}_{lumped}^{short} (\Omega) $ | ${Zmed}_{wire}^\infty (\Omega)$| $k$             | 
 |---------|---------|------------------------|-----------------------|-----------------|
