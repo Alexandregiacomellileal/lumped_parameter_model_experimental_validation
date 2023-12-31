@@ -53,6 +53,8 @@ The apparent resistivity for the cylinder electrodes was estimated at 115.8, 86.
 
 ### $k$ Parameter Estimation
 
+In our quest to mitigate the impact of mutual coupling in measurements and address distortions arising from the utilization of an equivalent semi-spherical representation of the horizontal electrode, we are engaged in refining the estimation process. Our focus is on enhancing accuracy and reliability by systematically assessing and adjusting the parameters involved in the measurement system.
+
 As per Section 3.1 of the associated research paper, the parameter $k$ was estimated to be 0.74 for an $s$ value of 0.22 m and 0.90 for an $s$ value of 1.5 m.
 The COMSOL models used by the authors are attached and named *rod_1.5_he_k.mph* and *rod_1.5_two_sphere_k.mph*. The following figure displays images generated through the COMSOL Multiphysics computer simulation software. The image above the figure is associated with the estimation of $Zmed_{lumped}^{short} (\Omega)$ using the COMSOL model *rod_1.5_two_sphere_k.mph*, while the one below is related to the estimation of $Zmed_{wire}^\infty (\Omega)$ using *rod_1.5_he_k.mph*. 
 
