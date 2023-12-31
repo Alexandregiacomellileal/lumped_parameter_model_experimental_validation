@@ -13,7 +13,7 @@ This repository contains the experimental validation details for the lumped para
  
 <img width="1019" alt="image" src="https://github.com/Alexandregiacomellileal/lumped_parameter_model_experimental_validation/assets/96079504/3e9322f1-e0cb-4e47-9824-b0129ceb2dde">
 <p align="center">
-  **Figure 1**
+  Figure 1
 </p>
 
 
@@ -60,23 +60,32 @@ The apparent resistivity for the cylinder electrodes was estimated at 115.8, 86.
 In our quest to mitigate the impact of mutual coupling in measurements and address distortions arising from the utilization of an equivalent semi-spherical representation of the horizontal electrode, we are engaged in refining the estimation process. Our focus is on enhancing accuracy and reliability by systematically assessing and adjusting the parameters involved in the measurement system.
 
 As per Section 3.1 of the associated research paper, the parameter $k$ was estimated to be 0.74 for an $s$ value of 0.22 m and 0.90 for an $s$ value of 1.5 m.
-The COMSOL models used by the authors are attached and named *rod_1.5_he_k.mph* and *rod_1.5_two_sphere_k.mph*. The following figure displays images generated through the COMSOL Multiphysics computer simulation software. The image above the figure is associated with the estimation of $Zmed_{lumped}^{short} (\Omega)$ using the COMSOL model *rod_1.5_two_sphere_k.mph*, while the one below is related to the estimation of $Zmed_{wire}^\infty (\Omega)$ using *rod_1.5_he_k.mph*. 
+The COMSOL models used by the authors are attached and named *rod_1.5_he_k.mph* and *rod_1.5_two_sphere_k.mph*. Figure 2 displays images generated through the COMSOL Multiphysics computer simulation software. The image above the Figure 2 is associated with the estimation of $Zmed_{lumped}^{short} (\Omega)$ using the COMSOL model *rod_1.5_two_sphere_k.mph*, while the one below is related to the estimation of $Zmed_{wire}^\infty (\Omega)$ using *rod_1.5_he_k.mph*. 
 
 $Zmed_{wire}^\infty (\Omega)$ is the clamp-on reading taken with the turbine grounding and the horizontal electrode separated by a large distance, in a such way that the mutual couplings between these elements can be considered negligible. On the other hand, the $Zmed_{lumped}^{short} (\Omega)$ is the clamp-on reading taken with the turbine grounding and the horizontal electrode separated by a smaller distance $s$ and with the horizontal electrode being represented by two semi-spherical electrodes spaced so that one does not be influenced by the other. For a single lumped parameter cell representing the horizontal electrode, each semi-spherical electrode must have twice its grounding resistance. 
 
 ![COMSOL_top_rod](https://github.com/Alexandregiacomellileal/lumped_parameter_model_experimental_validation/assets/96079504/fec3c28d-00eb-4525-b1e6-71c5f1f8a3f4)
+<p align="center">
+  Figure 2
+</p>
 
-The table below displays results obtained at an average soil resistivity of 115.82 $(\Omega.m)$. Notably, extensive computer simulations indicate that the parameter $k$ remains constant, regardless of changes in soil resistivity from 20 to 10240 $(\Omega.m)$.
+Table 1 displays COMSOL simulation results obtained at an average soil resistivity of 115.82 $(\Omega.m)$. Notably, extensive computer simulations indicate that the parameter $k$ remains constant, regardless of changes in soil resistivity from 20 to 10240 $(\Omega.m)$.
 
 | $s \ (m)$ | $\rho \ (\Omega.m)$| ${Zmed}_{lumped}^{short} (\Omega) $ | ${Zmed}_{wire}^\infty (\Omega)$| $k$             | 
 |---------|---------|------------------------|-----------------------|-----------------|
 | 0.220   | 115.82 | 68.828                | 93.064                | 0.740     | 
 | 1.500   |  115.82 | 84.037           | 93.064               | 0.903     |
+<p align="center">
+  Table 1
+</p>
 
 
 The graph below depicts the fluctuation of the parameter $k$ about the increasing distance $s$ between the rods and the horizontal electrodes. 
 
 <img src="https://github.com/Alexandregiacomellileal/lumped_parameter_model_experimental_validation/assets/96079504/f3d72683-0fc8-4b29-bddf-039e2b4e0f16" width="400" height="300">
+<p align="center">
+  Figure 3
+</p>
 
 ### Results
 
@@ -92,6 +101,9 @@ The obtained results demonstrate a robust agreement, with a Mean Absolute Percen
 | 1.50  | 0.90 | 1 | 72.5 ± 1.6 | 73.43 ± 4.35 | 1.28 ± 0.08 |
 | 1.50  | 0.90 | 2 | 56.0 ± 1.3 | 55.45 ± 3.34 | 0.98 ± 0.11 |
 | 1.50  | 0.90 | 3 | 39.1 ± 0.5 | 40.12 ± 2.47 | 2.61 ± 0.15 |
+<p align="center">
+  Table 2
+</p>
 
 ### Conclusion
 
