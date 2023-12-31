@@ -71,10 +71,12 @@ $Zmed_{wire}^\infty (\Omega)$ is the clamp-on reading taken with the turbine gro
 
 Table 1 displays COMSOL simulation results obtained at an average soil resistivity of 115.82 $(\Omega.m)$. Notably, extensive computer simulations indicate that the parameter $k$ remains constant, regardless of changes in soil resistivity from 20 to 10240 $(\Omega.m)$.
 
-| $s \ (m)$ | $\rho \ (\Omega.m)$| ${Zmed}_{lumped}^{short} (\Omega) $ | ${Zmed}_{wire}^\infty (\Omega)$| $k$             | 
+<p align="center">
+  | $s \ (m)$ | $\rho \ (\Omega.m)$| ${Zmed}_{lumped}^{short} (\Omega) $ | ${Zmed}_{wire}^\infty (\Omega)$| $k$             | 
 |---------|---------|------------------------|-----------------------|-----------------|
 | 0.220   | 115.82 | 68.828                | 93.064                | 0.740     | 
 | 1.500   |  115.82 | 84.037           | 93.064               | 0.903     |
+</p>
 <p align="center">
   Table 1
 </p>
