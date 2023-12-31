@@ -23,7 +23,9 @@ Measurements Zmed <sub>meter</sub> were conducted using the UT-278A clamp-on met
 
 The electrical circuit for the measurements was established and simulated in ATP to acquire the meter readings Zmed<sub>LPM</sub> following the procedures detailed in Section 2.2 of the associated research paper. Furthermore, the lumped parameter modeling used in [our previous work](https://github.com/Alexandregiacomellileal/A-New-Approach-Towards-Error-Reduction-in-Ground-Resistance-Measurements-Based-on-Clamp-on-Method) was also established and simulated in ATP for comparative purposes. The ATP files used by the authors are attached and named *23_model.acp*, *23_model_rod1.acp*, *23_model_rod3.acp*, *celulapi_COMSOL_k_RLC.acp*, *celulapi_COMSOL_k_RLC_rod1.acp*, and *celulapi_COMSOL_k_RLC_rod3.acp*. 
 
-Notably, the approach used to calculate the grounding resistance of the rod differs, utilizing the Sunde formula. This formula is particularly suitable for scenarios where cylindrical electrodes are vertically installed, especially when their length significantly exceeds their cross-section. 
+Notably, the approach used to calculate the grounding resistance of the rod differs, utilizing the Sunde formula [^2]. This formula is particularly suitable for scenarios where cylindrical electrodes are vertically installed, especially when their length significantly exceeds their cross-section. 
+
+[^2]: E.D. Sunde, Earth Conduction Effects in Transmission Systems, D. Van Nostrand Company, 1949. 
 
 The grounding resistance of the rod R<sub>rod</sub> is calculated as follows:
 
