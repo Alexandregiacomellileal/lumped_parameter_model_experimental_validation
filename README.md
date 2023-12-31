@@ -73,7 +73,7 @@ The graph below depicts the fluctuation of the parameter $k$ about the increasin
 
 ### Results
 
-The obtained results demonstrate a robust agreement, with a Mean Absolute Percentage Error of 1.39 ± 0.12%, between the values registered by the clamp-on meter and those predicted by the proposed equivalent electrical circuit model. It is important to mention that an measurement error propagation study was carried out to address measurement uncertainties.
+The obtained results demonstrate a robust agreement, with a Mean Absolute Percentage Error of (1.39 ± 0.12) %, between the values registered by the clamp-on meter and those predicted by the proposed equivalent electrical circuit model. It is important to mention that an measurement error propagation study was carried out to address measurement uncertainties.
 
 ### Table of Results
 
