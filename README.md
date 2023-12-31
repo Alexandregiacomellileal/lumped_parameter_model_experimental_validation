@@ -74,10 +74,9 @@ Table 1 displays COMSOL simulation results obtained at an average soil resistivi
   | $s \ (m)$ | $\rho \ (\Omega.m)$| ${Zmed}_{lumped}^{short} (\Omega) $ | ${Zmed}_{wire}^\infty (\Omega)$| $k$             | 
 |---------|---------|------------------------|-----------------------|-----------------|
 | 0.220   | 115.82 | 68.828                | 93.064                | 0.740     | 
-| 1.500   |  115.82 | 84.037           | 93.064               | 0.903     |
-<p align="center">
-  Table 1
-</p>
+| 1.500   |  115.82 | 84.037           | 93.064               | 0.903     | 
+                              Table 1
+
 
 
 The graph of Figure 3 depicts the fluctuation of the parameter $k$ about the increasing distance $s$ between the rods and the horizontal electrodes. 
