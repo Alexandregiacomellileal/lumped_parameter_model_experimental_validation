@@ -10,12 +10,8 @@ This repository contains the experimental validation details for the lumped para
 
 ### Experimental Setup
 
- 
+ ### Figure 1
 <img width="1019" alt="image" src="https://github.com/Alexandregiacomellileal/lumped_parameter_model_experimental_validation/assets/96079504/3e9322f1-e0cb-4e47-9824-b0129ceb2dde">
-<p align="center">
-  Figure 1
-</p>
-
 
 To validate the lumped parameter model introduced in Section 2.2 of the associated research paper, experiments were conducted using a scaled-down multi-grounded system. The system consisted of three 1.5 m rods spaced 7.5 m apart, interconnected to a 15 m horizontal electrode. Each copper rod symbolized a turbine grounding, boasting a cross-sectional area of 126 mm², while the copper horizontal electrode had a cross-sectional area of 35 mm².
 
@@ -64,10 +60,8 @@ The COMSOL models used by the authors are attached and named *rod_1.5_he_k.mph* 
 
 $Zmed_{wire}^\infty (\Omega)$ is the clamp-on reading taken with the turbine grounding and the horizontal electrode separated by a large distance, in a such way that the mutual couplings between these elements can be considered negligible. On the other hand, the $Zmed_{lumped}^{short} (\Omega)$ is the clamp-on reading taken with the turbine grounding and the horizontal electrode separated by a smaller distance $s$ and with the horizontal electrode being represented by two semi-spherical electrodes spaced so that one does not be influenced by the other. For a single lumped parameter cell representing the horizontal electrode, each semi-spherical electrode must have twice its grounding resistance. 
 
+### Figure 2
 ![COMSOL_top_rod](https://github.com/Alexandregiacomellileal/lumped_parameter_model_experimental_validation/assets/96079504/fec3c28d-00eb-4525-b1e6-71c5f1f8a3f4)
-<p align="center">
-  Figure 2
-</p>
 
 Table 1 displays COMSOL simulation results obtained at an average soil resistivity of 115.82 $(\Omega.m)$. Notably, extensive computer simulations indicate that the parameter $k$ remains constant, regardless of changes in soil resistivity from 20 to 10240 $(\Omega.m)$.
 
@@ -81,15 +75,15 @@ Table 1
 
 The graph of Figure 3 depicts the fluctuation of the parameter $k$ about the increasing distance $s$ between the rods and the horizontal electrodes. 
 
+### Figure 3
 <img src="https://github.com/Alexandregiacomellileal/lumped_parameter_model_experimental_validation/assets/96079504/f3d72683-0fc8-4b29-bddf-039e2b4e0f16" width="400" height="300">
-Figure 3
 
 
 ### Results
 
 The obtained results demonstrate a robust agreement, with a Mean Absolute Percentage Error of (1.39 ± 0.12) %, between the values registered by the clamp-on meter and those predicted by the proposed equivalent electrical circuit model. It is important to mention that an measurement error propagation study was carried out to address measurement uncertainties.
 
-### Table of Results
+### Table of Results 
 
 | $s$ (m) | $k$ | Rod | Zmed<sub>meter</sub> (Ω) | Zmed<sub>LPM</sub> (Ω) | APE<sub>LPM</sub> (%) |
 |-------|---|-----|-------------------|----------------|---------------|
@@ -99,9 +93,7 @@ The obtained results demonstrate a robust agreement, with a Mean Absolute Percen
 | 1.50  | 0.90 | 1 | 72.5 ± 1.6 | 73.43 ± 4.35 | 1.28 ± 0.08 |
 | 1.50  | 0.90 | 2 | 56.0 ± 1.3 | 55.45 ± 3.34 | 0.98 ± 0.11 |
 | 1.50  | 0.90 | 3 | 39.1 ± 0.5 | 40.12 ± 2.47 | 2.61 ± 0.15 |
-<p align="center">
-  Table 2
-</p>
+
 
 ### Conclusion
 
