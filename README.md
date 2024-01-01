@@ -30,7 +30,7 @@ Notably, the approach used to calculate the grounding resistance of the rod diff
 
 The grounding resistance of the rod R<sub>rod</sub> is calculated as follows:
 
-$\ R_{\text{rod}} = \frac{\rho_a^{\text{rod}}}{2 \pi l_{\text{rod}}} \left( \ln\left(\frac{4l_{\text{rod}}}{a_{\text{rod}}}\right) - 1 \right) \, \Omega \$
+$\ R_{\text{rod}} = \frac{\rho_a^{\text{rod}}}{2 \pi l_{\text{rod}}} \left[ \ln\left(\frac{4l_{\text{rod}}}{a_{\text{rod}}}\right) - 1 \right] \, \Omega \$
 
 Where:
 - $\rho_a^{rod}$ represents the apparent resistivity observed by the rod ($\Omega \cdot \text{m}$),
